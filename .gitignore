@@ -64,7 +64,7 @@ _autosave-*
 *.tmp
 
 # Netlist files (exported from Eeschema)
-*.net
+kicad/*.net
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
