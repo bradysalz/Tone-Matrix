@@ -9,7 +9,7 @@ Follow along [here](https://bradysalz.com/tags/tone-matrix/) for more info!
 ## Project Structure
 
 - `sim/`: LTSpice simulation testbenches/schematics 
-- `plot/`: Python plotting code (mostly for website, but in case anyone else wants HQ pics)
+- `plot/`: Sim data + Python plotting code 
 - `kicad/`: KiCad schematics + PCB layout
 
-Other important, like BOM, will be in root directory. 
+Most of the `plot/` folder is just data dumps. I use Spyder as my MATLAB-esque IDE, which means I get to be lazy and use cells instead of neatly defining functions or files. Would not recommend running by itself - too many plots!
