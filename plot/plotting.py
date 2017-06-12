@@ -78,3 +78,20 @@ f = plt.gcf()
 f.set_size_inches(12, 8)
 plt.tight_layout()
 plt.show()
+
+#%% Voltage Summers
+df = pd.read_csv('Voltage_Summers.txt', sep='\t| ', engine='python')
+
+df.columns = ['time', 'Iter', 'Recurs']
+
+plt.plot(df.time*1e3, df.Iter)
+plt.plot(df.time*1e3, df.Recurs)
+
+plt.xlabel('Time [ms]')
+plt.ylabel('Voltage [V]')
+plt.legend(['Iterative', 'Recursive'])
+
+f = plt.gcf()
+f.set_size_inches(12, 8)
+plt.tight_layout()
+plt.show()
