@@ -2,7 +2,7 @@
 *.raw
 sim/*.log
 sim/*.txt
-
+*.fft
 # Created by https://www.gitignore.io/api/eagle,kicad,python
 
 
