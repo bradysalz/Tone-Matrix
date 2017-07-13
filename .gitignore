@@ -1,5 +1,6 @@
 # LTSpice Ignore
 *.raw
+sim/*.net
 sim/*.log
 sim/*.txt
 *.fft
